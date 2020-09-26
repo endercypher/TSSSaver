@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TSS Saver - 1Conan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="description" content="SHSH2 blob saver.">
+  <meta name="author" content="1Conan">
+  <link rel="stylesheet" href="/css/style-black.css">
+  <link rel="stylesheet" href="/css/icon.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+  <script data-ad-client="ca-pub-3930613876309395" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <style>.modal{display:none;position:fixed;z-index:1;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,.4)}.modal-content{background-color:#fefefe;margin:15% auto;padding:20px;border:1px solid #888;width:80%}.close{color:#aaa;float:right;font-size:28px;font-weight:700}.close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer}.nav{background-color:#101010;overflow:hidden}.nav a{float:left;display:block;color:#f2f2f2;text-align:center;padding:14px 16px;text-decoration:none;font-size:17px}.nav a:hover{background-color:#ddd;color:#000}.active{background-color:#202020;color:#fff}.nav .icon{display:none}@media screen and (max-width:600px){.nav a:not(:first-child){display:none}.nav a.icon{float:right;display:block}.nav.responsive{position:relative}.nav.responsive a.icon{position:absolute;right:0;top:0}.nav.responsive a{float:none;display:block;text-align:left}}</style>
+  <script type="text/javascript" src="//cdn.thisiswaldo.com/static/js/8513.js" async></script>
+
+</head>
+
+<body>
+  <div class="nav" id="nav">
+    <a href="https://tsssaver.1conan.com/" class="active">Home</a>
+    <a href="https://tsssaver.1conan.com/check.php">Blob Checker</a>
+    <a href="https://repo.nullpixel.uk/" target="_blank">App Repo</a>
+    <a href="https://redd.it/5lo0dr" target="_blank">Reddit Tutorial</a>
+    <a href="javascript:void(0);" class="icon" onclick="z()">
+      <i class="icon-bars" style="color:white;"></i>
+    </a>
+  </div>
+  <div class="box">
+    <h1 class="title"><span style="font-weight:600;">TSS Saver</span> - SHSH2 Blobs Saver</h1>
+    <p class="author">by <a href="https://www.reddit.com/user/1Conan/">/u/1Conan</a> | Theme by <a href="https://www.reddit.com/user/MareddySaiKiran">/u/MareddySaiKiran</a></p>
+  </div>
+  <div class="box">
+    <h1 class="note">Note : </h1>
+    <p style="color:white">&#8226; Discord: <a href="https://discord.gg/dTunaXa" target="_blank">TSS Saver</a>&nbsp;|&nbsp;<a href="https://discord.gg/pKhzAT" target="_blank">r/jailbreak</a></a></p>
+    <p style="color:white">&#8226; Donation Links:
+      <a href="https://www.patreon.com/bePatron?u=5449613" target="_blank">Patreon</a>
+      |
+      <a href="https://www.paypal.me/1ConanE" target="_blank">PayPal.me</a>
+      |
+      <a href="http://ko-fi.com/ConanE" target="_blank">Ko-Fi</a>
+      |
+      <a href="#" id="cryptoButton">Cryptocurrency</a>
+      <br>
+
+    </p>
+    <p style="color:white">&#8226;
+      Referral codes:
+      <a href="https://portal.hyperexpert.com/aff.php?aff=36">HyperExpert (VPS)</a>
+      |
+      <a href="https://www.vultr.com/?ref=7822476-4F">Vultr $50 credit!(VPS)</a>
+      |
+      <a href="https://www.namesilo.com/pricing.php?rid=9cdb847yq">NameSilo (Domains)</a>
+    </p>
+    <p style="color:white">&#8226; Follow TSS Saver on Twitter!: <a href="https://twitter.com/TSSSaver">https://twitter.com/TSSSaver</a></p>
+    <!--<p style="color:white">&#8226; Need servers? Get them from <a href="https://datawagon.net">DataWagon</a>(disclosure: they helped me a lot :p)</p>-->
+    <p style="color:white">&#8226; Want to keep your privacy? <a href="https://evolution-host.com/vps-hosting.php">Buy a VPS with Bitcoin or Monero</a></p>
+    <p style="color:white">&#8226; Jailbreak Guide: <a href="https://ios.cfw.guide/" target="_blank">https://ios.cfw.guide/</a></p>
+  </div>
+<!--  <div id="waldo-tag-8514"></div>-->
+  <div class="box" style="background:none!important;display:flex;justify-content:center"><div id="waldo-tag-8514"></div></div>
+  <div class="box">
+    <form method="post" action="submit.php" autocomplete="off">
+      <h1 class="note">ECID #JunkTerrorBill #BlackLivesMatter: </h1>
+      <div class="inputGroup">
+        <select name="ECIDType" style="width:22.5%;float:left;height:29px">
+          <option value="0">Hex (iTunes)</option>
+          <option value="1">Dec (UDID Calculator/ideviceinfo)</option>
+        </select>
+        <div style="width:5%"></div>
+        <input type="text" name="ECID" placeholder="Type ECID Here..." style="float:right;width:72.5%">te
+      </div>
+      <br>
+      <br>
+      <h1 class="note">Identifier : </h1>
+      <select id="deviceType" name="deviceType">
+        <option value="iPhone">iPhone</option>
+        <option value="iPod">iPod</option>
+        <option value="iPad">iPad</option>
+        <option value="AppleTV">AppleTV</option>
+      </select>
+      <select id="deviceModel" name="deviceModel">
+        <option value="0">iPhone 2G</option>
+        <option value="1">iPhone 3G</option>
+        <option value="2">iPhone 3G[S]</option>
+        <option value="3">iPhone 4 (GSM)</option>
+        <option value="4">iPhone 4 (GSM 2012)</option>
+        <option value="5">iPhone 4 (CDMA)</option>
+        <option value="6">iPhone 4[S]</option>
+        <option value="7">iPhone 5 (GSM)</option>
+        <option value="8">iPhone 5 (Global)</option>
+        <option value="9">iPhone 5c (GSM)</option>
+        <option value="10">iPhone 5c (Global)</option>
+        <option value="11">iPhone 5s (GSM)</option>
+        <option value="12">iPhone 5s (Global)</option>
+        <option value="13">iPhone 6+</option>
+        <option value="14">iPhone 6</option>
+        <option value="15">iPhone 6s</option>
+        <option value="16">iPhone 6s+</option>
+        <option value="17">iPhone SE</option>
+        <option value="18">iPhone 7 (Global) (iPhone9,1)</option>
+        <option value="19">iPhone 7 Plus (Global) (iPhone9,2)</option>
+        <option value="20">iPhone 7 (GSM) (iPhone9,3)</option>
+        <option value="21">iPhone 7 Plus (GSM) (iPhone9,4)</option>
+        <option value="22">iPhone 8 (iPhone10,1)</option>
+        <option value="23">iPhone 8+ (iPhone10,2)</option>
+        <option value="24">iPhone X (iPhone10,3)</option>
+        <option value="25">iPhone 8 (iPhone10,4)</option>
+        <option value="26">iPhone 8+ (iPhone10,5)</option>
+        <option value="27">iPhone X (iPhone10,6)</option>
+        <option value="28">iPhone XS (iPhone11,2)</option>
+        <option value="29">iPhone XS Max (China) (iPhone11,4)</option>
+        <option value="30">iPhone XS Max (iPhone11,6)</option>
+        <option value="31">iPhone XR (iPhone11,8)</option>
+        <option value="32">iPhone 11 (iPhone12,1)</option>
+        <option value="33">iPhone 11 Pro (iPhone12,3)</option>
+        <option value="34">iPhone 11 Pro Max (iPhone12,5)</option>
+        <option value="35">iPhone SE 2020 (iPhone12,8)</option>
+      </select>
+      <br><br>
+      <div id="bcDiv" style="display:none;">
+        <h1 class="note">Internal Name/Model | Board Configuration : </h1>
+        <input type="text" id="inp_bc" name="boardConfig_bc" placeholder="Type Board Config Here..." style="width:100%">
+        <br><br>
+      </div>
+      <input type="checkbox" id="apnonce"> <span style="color:white;font-size:10px">Manually specify an apnonce (ADVANCED
+        USERS ONLY)</span><br><br>
+      <div id="apnonceDiv" style="display:none">
+        <h1 class="note">Apnonce</h1>
+        <input type="text" id="inp_apnonce" name="apnonce_ap" placeholder="Type Apnonce Here..." style="width:100%">
+        <br><br>
+      </div>
+      <div class="g-recaptcha" data-sitekey="6LdkVg8UAAAAACSk1vTutXircUXMgbqwIM2nLwWJ" data-theme="dark"></div><br>
+      <input class="button" type="submit" value="Submit" name="submit" style="width:100%">
+    </form>
+  </div>
+  <div class="box" style="background:none!important;display:flex;justify-content:center"><div id="waldo-tag-8515"></div></div>
+  <div class="box">
+    <h1 class="note">Recover SHSH Link</h1>
+    <select id="inp_ECIDType" style="width:30%;float:left;height:29px">
+      <option value="0">Hex</option>
+      <option value="1">Dec</option>
+    </select>
+    <input type="text" placeholder="Type ECID Here..." id="inp_ecid" style="width:70%"><br><br>
+    <button class="button" id="showlink" style="width:100%">Get your blobs</button>
+  </div>
+  <!--<div class="box">
+    <h1 class="note">Wrong model/board configuration selected?</h1>
+    <p style="color:white">Just resubmit your ECID! It changes the records now :)</p>
+  </div>-->
+  <div class="box">
+  <p style="text-align:center;">
+    Copyright &copy; 1Conan, 2016 - 2020
+    |
+    <a href="https://github.com/1Conan/TSSSaver">
+      TSS Saver
+    </a> 
+    is licensed under 
+    <a href="LICENSE">
+      MIT License
+    </a>
+  </p>
+<a style="text-align:center" href="privacy.html"><p style="color:white">Privacy Policy</p></a>
+</div>
+
+  <div class="modal" id="cryptoModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Cryptocurrency</h2>
+    </div>
+    <div class="modal-body">
+      <p>Bitcoin(BTC): 1B5zXNR3WECMQwbdSWqf795k2To5sq62RZ</p>
+      <p>Bitcoin Cash(BCH): 1EDzqhJpQB9DLnK5sXbeAi24N77VcbqmYG</p>
+      <p>Litecoin(LTC): LW3TX3BQZssoHrqTjb5rLzXi3eZ5XARQ7u</p>
+      <p>Ethereum(ETH): 0x320949e2912A727b0563513c91537967EcaC803B</p>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://www.recaptcha.net/recaptcha/api.js" async></script>
+  <script src="/js/site.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date;a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-89150561-1","auto");ga("send","pageview");
+    var a=document.getElementById("cryptoModal"),b=document.getElementsByClassName("close")[0];document.getElementById("cryptoButton").onclick=function(){a.style.display="block"};b.onclick=function(){a.style.display="none"};window.onclick=function(c){c.target==a&&(a.style.display="none")};
+    function z(){var x=document.getElementById("nav");x.className==="nav"?x.className+=" responsive":x.className="nav";}
+    window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#000"},button:{background:"#f1d600"}}})});
+  </script>
+  <script>if (window.navigator.standalone){while(true){ alert('If someone someone sold you this "app", you got scammed. Thanks!');}} </script>
+</body>
+
+</html>
